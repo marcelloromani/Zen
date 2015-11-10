@@ -28,6 +28,7 @@ a pull request back to us!
 - enter an encryption key in `'/application/config/development/config.php'` on line 227
 - Configure a webserver
   - install apache (sometimes known as 'httpd')
+  - install php (don't forget the apache php module and php-mysql package)
   - add a new configuration file at /etc/httpd/conf.d/zen.conf. If this apache instance is not going to serve any other sites you can safely set it like this, otherwise you need vhosts:
 
 ```
